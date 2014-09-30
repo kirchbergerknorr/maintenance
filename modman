@@ -1,0 +1,9 @@
+app/code/local/Kirchbergerknorr/Maintenance/Block/Adminhtml/System/Config/Date.php app/code/local/Kirchbergerknorr/Maintenance/Block/Adminhtml/System/Config/Date.php
+app/code/local/Kirchbergerknorr/Maintenance/Block/Notification.php app/code/local/Kirchbergerknorr/Maintenance/Block/Notification.php
+app/code/local/Kirchbergerknorr/Maintenance/etc/adminhtml.xml app/code/local/Kirchbergerknorr/Maintenance/etc/adminhtml.xml
+app/code/local/Kirchbergerknorr/Maintenance/etc/config.xml app/code/local/Kirchbergerknorr/Maintenance/etc/config.xml
+app/code/local/Kirchbergerknorr/Maintenance/etc/system.xml app/code/local/Kirchbergerknorr/Maintenance/etc/system.xml
+app/code/local/Kirchbergerknorr/Maintenance/Helper/Data.php app/code/local/Kirchbergerknorr/Maintenance/Helper/Data.php
+app/design/frontend/default/default/layout/maintenance.xml app/design/frontend/default/default/layout/maintenance.xml
+app/design/frontend/default/default/template/kirchbergerknorr/maintenance.phtml app/design/frontend/default/default/template/kirchbergerknorr/maintenance.phtml
+app/etc/modules/Kirchbergerknorr_Maintenance.xml app/etc/modules/Kirchbergerknorr_Maintenance.xml

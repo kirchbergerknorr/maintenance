@@ -1,0 +1,10 @@
+{
+    "name": "kirchbergerknorr/maintenance",
+    "description": "Adds a custom notification at the top of the screen for a fixed period",
+    "authors": [
+        {
+            "name": "Leo Friedrichs",
+            "email": "lf@kirchbergerknorr.de"
+        }
+    ]
+}
