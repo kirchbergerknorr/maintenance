@@ -1,0 +1,74 @@
+<?xml version="1.0"?>
+<config>
+    <tabs>
+        <kk_tab translate="label">
+            <label>Kirchbergerknorr</label>
+            <sort_order>99999</sort_order>
+        </kk_tab>
+    </tabs>
+    <sections>
+        <core translate="label">
+            <label>Settings</label>
+            <tab>kk_tab</tab>
+            <frontend_type>text</frontend_type>
+            <show_in_default>1</show_in_default>
+            <show_in_website>0</show_in_website>
+            <show_in_store>0</show_in_store>
+            <sort_order>1</sort_order>
+            <groups>
+                <maintenance translate="label">
+                    <label>Wartungsarbeiten</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>1000</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <message translate="label">
+                            <label>Nachricht</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </message>
+                        <startdate translate="label">
+                            <label>Startdatum</label>
+                            <frontend_type>text</frontend_type>
+                            <frontend_model>kirchbergerknorr_maintenance/adminhtml_system_config_date</frontend_model>
+                            <sort_order>20</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </startdate>
+                        <starttime translate="label">
+                            <label>Startzeit</label>
+                            <frontend_type>time</frontend_type>
+                            <sort_order>21</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </starttime>
+                        <enddate translate="label">
+                            <label>Enddatum</label>
+                            <frontend_type>text</frontend_type>
+                            <frontend_model>kirchbergerknorr_maintenance/adminhtml_system_config_date</frontend_model>
+                            <sort_order>25</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </enddate>
+                        <endtime translate="label">
+                            <label>Endzeit</label>
+                            <frontend_type>time</frontend_type>
+                            <sort_order>26</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </endtime>
+                    </fields>
+                </maintenance>
+            </groups>
+        </core>
+    </sections>
+</config>

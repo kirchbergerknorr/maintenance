@@ -1,0 +1,53 @@
+<?php
+    $backendStyle = rand(0, 1);
+?>
+
+<?php if($this->isActive() && $this->showMaintenance()): ?>
+
+    <div id="maintenance">
+        <span>
+            <?=$this->getMessage(); ?>
+        </span>
+
+        <span id="maintenance-close">✖</span>
+    </div>
+
+    <style type="text/css">
+        #maintenance
+        {
+            left: 0;
+            top: 0;
+            <?php if($backendStyle): ?>
+                background-color: #fdfaa4;
+                border: 1px solid #988753;
+                color: #eb5e00;
+                line-height: 1.2em;
+            <?php else: ?>
+                background-color: #f9edbe;
+                border: 1px solid #f0c36d;
+                color: #222222;
+            <?php endif; ?>
+            width: 100%;
+            padding: 5px;
+            z-index: 9999;
+            position: absolute;
+            opacity: .9;
+            text-align: center;
+        }
+        #maintenance-close
+        {
+            cursor: pointer;
+            position: absolute;
+            right: 20px;
+        }
+    </style>
+
+    <script type="text/javascript">
+        (function($) {
+            $('#maintenance-close').click(function() {
+                $('#maintenance').hide();
+                document.cookie = 'showMaintenance=false;';
+            });
+        })(jQuery);
+    </script>
+<?php endif; ?>

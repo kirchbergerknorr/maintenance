@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Kirchbergerknorr_Maintenance>
+            <version>0.1.0</version>
+        </Kirchbergerknorr_Maintenance>
+    </modules>
+    <global>
+        <blocks>
+            <kirchbergerknorr_maintenance>
+                <class>Kirchbergerknorr_Maintenance_Block</class>
+            </kirchbergerknorr_maintenance>
+        </blocks>
+        <helpers>
+            <kirchbergerknorr_maintenance>
+                <class>Kirchbergerknorr_Maintenance_Helper</class>
+            </kirchbergerknorr_maintenance>
+        </helpers>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <kirchbergerknorr_maintenance>
+                    <file>maintenance.xml</file>
+                </kirchbergerknorr_maintenance>
+            </updates>
+        </layout>
+    </frontend>
+</config>
