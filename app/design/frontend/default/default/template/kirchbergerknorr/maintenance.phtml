@@ -1,7 +1,3 @@
-<?php
-    $backendStyle = rand(0, 1);
-?>
-
 <?php if($this->isActive() && $this->showMaintenance()): ?>
 
     <div id="maintenance">
@@ -17,7 +13,7 @@
         {
             left: 0;
             top: 0;
-            <?php if($backendStyle): ?>
+            <?php if($this->isBackendStyle()): ?>
                 background-color: #fdfaa4;
                 border: 1px solid #988753;
                 color: #eb5e00;

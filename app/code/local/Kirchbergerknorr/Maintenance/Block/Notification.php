@@ -58,4 +58,9 @@ class Kirchbergerknorr_Maintenance_Block_Notification extends Mage_Core_Block_Te
         $seconds += $split[2];
         return $seconds;
     }
+
+    public function isBackendStyle()
+    {
+        return Mage::getStoreConfig('core/maintenance/backendstyle');
+    }
 }
